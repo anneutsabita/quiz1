@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <!-- desktop navigation -->
+
+    <nav id="desktop-nav">
+      <div class="logo">Anneu Tsabita</div>
+      <div class="desk-links">
+        <li>
+          <a href="#" onclick="location.href = 'index.html';">Homepage</a>
+        </li>
+        <li>
+          <a href="#" onclick="location.href = 'profile.html';">Profile</a>
+        </li>
+        <li>
+          <a href="#" onclick="location.href = 'hometown.html';">Hometown</a>
+        </li>
+        <li><a href="#" onclick="location.href = 'food.html';">Food</a></li>
+        <li>
+          <a href="#" onclick="location.href = 'tourist.html';">Tourist</a>
+        </li>
+      </div>
+    </nav>
+
+    <!-- hamburger navigation -->
+
+    <nav id="hamburger-nav">
+      <div class="logo">Anneu Tsabita</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li>
+            <a href="#" onclick="location.href = 'index.html';">Homepage</a>
+          </li>
+          <li>
+            <a href="#" onclick="location.href = 'profile.html';">Profile</a>
+          </li>
+          <li>
+            <a href="#" onclick="location.href = 'hometown.html';">Hometown</a>
+          </li>
+          <li><a href="#" onclick="location.href = 'food.html';">Food</a></li>
+          <li>
+            <a href="#" onclick="location.href = 'tourist.html';">Tourist</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile -->
+
+    <section id="profile">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Social Media Specialists</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>ITS Surabaya (present)<br />81 Senior High School Jakarta</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              My name is Anneu Tsabita Putri. My friends often call me Anneu. I
+              am currently studying Informatics Engineering at the Institut
+              Teknologi Sepuluh Nopember (ITS) in Surabaya. I moved to Surabaya
+              to pursue my education, leaving my parents alone at home in
+              Jakarta since all my siblings are also studying in different
+              places. My eldest brother is a doctor currently doing his
+              internship in Aceh, while my second brother is still in college in
+              Yogyakarta. At ITS, I am a member of the Student Choir (PSM)
+              because I have a passion for singing. Recently, our ITS Student
+              Choir won a choir competition in Singapore. Soon, I will also be
+              participating in an international choir competition in Semarang.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#cat'"
+      />
+    </section>
+
+    <!-- my lovely cats -->
+
+    <section id="cat">
+      <p class="section__text__c1">My Lovely</p>
+      <h1 class="title">Cats</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic2.jpg"
+            alt="Profile picture"
+            class="about-pic2"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Back home in Jakarta, I share my living space with four beloved
+              cats named Kiwi, Oni, Belba, and Yenba. I hold a deep affection
+              for them. We used to have five cats, but about a year ago, one of
+              them, named Ale, passed away.
+            </p>
+          </div>
+        </div>
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic3.jpg"
+            alt="Profile picture"
+            class="about-pic3"
+          />
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrowc"
+        onclick="location.href='#contact'"
+      />
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:anneutsabita@gmail.com">anneutsabita@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/anneutsabita/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li>
+              <a href="#" onclick="location.href='index.html'">Homepage</a>
+            </li>
+            <li>
+              <a href="#" onclick="location.href = '#profile';">Profile</a>
+            </li>
+            <li>
+              <a href="#" onclick="location.href = 'hometown.html';"
+                >Hometown</a
+              >
+            </li>
+            <li><a href="#" onclick="location.href = 'food.html';">Food</a></li>
+            <li>
+              <a href="#" onclick="location.href = 'tourist.html';">Tourist</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Anneu Tsabita. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

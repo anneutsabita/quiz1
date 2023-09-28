@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <!-- desktop navigation -->
+
+    <nav id="desktop-nav">
+      <div class="logo">Anneu Tsabita</div>
+      <div class="desk-links">
+        <li>
+          <a href="#" onclick="location.href = 'index.html';">Homepage</a>
+        </li>
+        <li>
+          <a href="#" onclick="location.href = 'profile.html';">Profile</a>
+        </li>
+        <li>
+          <a href="#" onclick="location.href = 'hometown.html';">Hometown</a>
+        </li>
+        <li><a href="#" onclick="location.href = 'food.html';">Food</a></li>
+        <li>
+          <a href="#" onclick="location.href = 'tourist.html';">Tourist</a>
+        </li>
+      </div>
+    </nav>
+
+    <!-- hamburger navigation -->
+
+    <nav id="hamburger-nav">
+      <div class="logo">Anneu Tsabita</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li>
+            <a href="#" onclick="location.href = 'index.html';">Homepage</a>
+          </li>
+          <li>
+            <a href="#" onclick="location.href = 'profile.html';">Profile</a>
+          </li>
+          <li>
+            <a href="#" onclick="location.href = 'hometown.html';">Hometown</a>
+          </li>
+          <li><a href="#" onclick="location.href = 'food.html';">Food</a></li>
+          <li>
+            <a href="#" onclick="location.href = 'tourist.html';">Tourist</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- tourist -->
+
+    <section id="tourist">
+      <p class="section__text__p1">Best Places to Visit</p>
+      <h1 class="title">in Jakarta</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/monas.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Monumen Nasional</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://id.wikipedia.org/wiki/Monumen_Nasional')"
+              >
+                Deskripsi
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://maps.app.goo.gl/MmrUjkYhzNNzDKXd8')"
+              >
+                Alamat
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ancol.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Taman Impian Jaya Ancol
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://ancol.com/')"
+              >
+                Deskripsi
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://maps.app.goo.gl/tTFb6aVV1NNDmUo36')"
+              >
+                Alamat
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/gbk.jpg" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Gelora Bung Karno
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://id.wikipedia.org/wiki/Stadion_Utama_Gelora_Bung_Karno')"
+              >
+                Deskripsi
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://maps.app.goo.gl/m2JrDvGfANRmpACU9')"
+              >
+                Alamat
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:anneutsabita@gmail.com">anneutsabita@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/anneutsabita/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li>
+              <a href="#" onclick="location.href='index.html'">Homepage</a>
+            </li>
+            <li>
+              <a href="#" onclick="location.href = 'profile.html';">Profile</a>
+            </li>
+            <li>
+              <a href="#" onclick="location.href = 'hometown.html';"
+                >Hometown</a
+              >
+            </li>
+            <li><a href="#" onclick="location.href = 'food.html';">Food</a></li>
+            <li>
+              <a href="#" onclick="location.href = '#tourist';">Tourist</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Anneu Tsabita. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
